@@ -26,3 +26,18 @@ header{
     color:#D0BCA8;
     text-align: center;
 }
+
+
+.fon_image{
+    width:100%;
+    height:700px;
+    opacity:0.6;
+    position: absolute;
+    top:100px;
+    left:0px;
+}
+
+
+.fon_image img{
+    width:100%;
+}
