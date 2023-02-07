@@ -1,0 +1,47 @@
+
+		
+		<div class="info1">
+			Good coffee - Good mood
+		</div>
+		<div class="info2">
+			The best grain, the finest roast, the most powerful flavor.
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+      
+        
+        .info1{
+            width:60%;
+            height:100px;
+            position: absolute;
+            top:150px;
+            left:20%;
+            text-align: center;
+            font-size: 40px;
+            background-color: blanchedalmond;
+        }
+        
+        
+        
+        
+        .info2{
+            width:60%;
+            height:100px;
+            position: absolute;
+            top:320px;
+            left:20%;
+            text-align: center;
+            font-size: 40px;
+        }
