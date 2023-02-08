@@ -21,11 +21,52 @@ header{
     height:50px;
     position:absolute;
     top:30px;
-    left:35%;
+    left:25%;
     font-size:32px;
     color:#D0BCA8;
     text-align: center;
 }
+
+.block_buttons{
+    width:30%;
+    height:50px;
+    position:absolute;
+    top:30px;
+    left:70%;
+    font-size:32px;
+    color:#D0BCA8;
+    text-align: center;
+}
+
+
+#btn_sign{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #D0BCA8;
+    color:#3D251B;
+    font-weight: bold;
+}
+
+#btn_sign:hover{
+    cursor: pointer;
+}
+
+#btn_login{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #D0BCA8;
+    color:#3D251B;
+    font-weight: bold;
+}
+
+#btn_login:hover{
+    cursor: pointer;
+}
+
+
 
 
 .fon_image{
