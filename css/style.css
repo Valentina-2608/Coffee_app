@@ -42,6 +42,10 @@ header{
     text-decoration: none;
     color:#3D251B;
 }
+.block_buttons a:visited{
+    text-decoration: none;
+    color:#3D251B;
+}
 
 
 #btn_sign{
