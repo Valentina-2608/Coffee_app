@@ -188,3 +188,13 @@ header{
     font-weight:bold;
     }
     
+
+.container{
+    width:50%;
+    height:400px;	
+    position:absolute;
+    top:50px;
+    left:35%;
+    z-index: 7;
+ }
+    
