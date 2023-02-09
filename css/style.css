@@ -171,3 +171,20 @@ header{
     height: 800px;
     background-color: #3D251B;
 }
+
+
+
+.caption1{
+    width:50%;
+    height:80px;	
+    position:absolute;
+    top:30px;
+    left:50px;
+    color:#D0BCA8;
+    padding:20px;
+    text-align:left;
+    font-size:44px;
+    font-style:italic;
+    font-weight:bold;
+    }
+    
