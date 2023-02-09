@@ -324,3 +324,12 @@ input:focus{
 .for_login a{
 	color:#FBFE72;
 }
+
+
+
+.coffee_image1{
+    position: absolute;
+    top:350px;
+    left:2%;
+    z-index:8;
+}
