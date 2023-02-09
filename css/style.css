@@ -306,3 +306,21 @@ input:focus{
 #btn_clear:hover{
 	cursor: pointer;
 }
+
+
+
+.for_login{
+	width:100%;
+	height:40px;
+	position: absolute;
+	top:360px;
+	left:0px;
+	font-size:18px;
+	text-align: center;
+	color:white;
+}
+
+
+.for_login a{
+	color:#FBFE72;
+}
