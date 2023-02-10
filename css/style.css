@@ -389,3 +389,22 @@ input:focus{
 .for_sign a{
 	color:#FBFE72;
 }
+
+
+
+.coffee_image2{
+    width:50%;
+    height:500px;
+    position: absolute;
+    top:220px;
+    left:2%;
+    z-index:8;
+}
+
+
+.coffee_image2 img{
+    width:80%;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
