@@ -20,5 +20,6 @@
   "dependencies": {
     "aws-sdk": "^2.1310.0",
     "firebase": "^9.17.1"
-  }
+  },
+  "devDependencies": {}
 }
