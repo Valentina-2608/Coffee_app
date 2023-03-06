@@ -423,3 +423,15 @@ input:focus{
     position: relative;
     background-color: red;
 }
+
+
+.greeting{
+    width:20%;
+    height:50px;
+    position: absolute;
+    top:30px;
+    left:200px;
+    color:#D0BCA8;
+    font-size:32px;
+    font-style: italic;
+}
