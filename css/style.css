@@ -435,3 +435,13 @@ input:focus{
     font-size:32px;
     font-style: italic;
 }
+
+
+.content{
+    width:100%;
+    height:1300px;
+    position: absolute;
+    top:100px;
+    left:0px;
+    background-color: #D0BCA8;
+}
