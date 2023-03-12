@@ -436,6 +436,33 @@ input:focus{
     font-style: italic;
 }
 
+.block_button{
+	width:20%;
+	height:50px;
+	position: absolute;
+	top:35px;
+	left:87%;
+}
+
+#btn_log_out{
+	width:35%;
+	background-color:#D0BCA8;
+	border:none;
+	border-radius: 8px;
+	padding: 5px;
+	font-size:16px;
+	color:black;
+}
+
+
+#btn_log_out:hover{
+	cursor: pointer;
+}
+
+
+
+
+
 
 .content{
     width:100%;
