@@ -43,7 +43,7 @@
           .then(() => {
           // Data saved successfully!
         alert('User created successfully')
-        window.location.replace("barista1_orders.html");
+        window.location.replace("barista_orders.html");
         })
         .catch((error) => {
           // The write failed...
