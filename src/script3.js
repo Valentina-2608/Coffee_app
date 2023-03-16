@@ -1,10 +1,8 @@
-/* Log Out Page */
+/* Add orders to FireStore DataBase */
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-
-import { getAuth, signOut} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"
-
+import { initializeApp} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
 
  // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -22,17 +20,32 @@ import { getAuth, signOut} from "https://www.gstatic.com/firebasejs/9.17.1/fireb
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const auth = getAuth();
+  const db = getFirestore(app);
 
 
+let order_btns = document.querySelectorAll('.order_btn');
+for(let i=0; i< order_btns.length; i++){
+  order_btns[i].addEventListener('click',addOrder);
+}
 
-let btn_sing_out =  document.getElementById('btn_log_out');
-btn_sing_out.addEventListener('click', function(){
-	signOut(auth).then(() => {
-		// Sign-out successful.
-		alert('Log out success')
-		window.location.replace("index.html");
-	  }).catch((error) => {
-		// An error happened.
-	  });
-})
+/* Add orders */
+function addOrder(event){
+  let order_btn=event.target;
+  let order_btn_parent = order_btn.parentElement;
+  let card_caption = order_btn_parent.children[1].innerHTML;
+  let card_price = order_btn_parent.children[2].innerHTML;
+  const dbRef = collection(db, 'Orders')
+    const data = {
+        caption: card_caption,
+        price:card_price
+      };
+     addDoc(dbRef, data)
+    .then(()=>{
+      alert('Order was added successfully')
+    })
+    .catch((error)=>{
+      alert('Error')
+    });
+
+}
+
