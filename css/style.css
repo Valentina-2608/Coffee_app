@@ -604,3 +604,14 @@ footer{
 #btn_sign_out:hover{
     cursor: pointer;
 }
+
+
+.content1{
+    width:100%;
+    height:1000px;
+    position: absolute;
+    top:100px;
+    left:0px;
+    background-color: #D0BCA8;
+}
+
