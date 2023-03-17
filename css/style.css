@@ -623,3 +623,23 @@ footer{
     top:20px;
     left:0px;
 }
+
+
+.orders{
+    width:55%;
+    height:500px;
+    background-color:aquamarine;
+    position: absolute;
+    top:20px;
+    left:45%;
+}
+
+.caption2{
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size:29px;
+    font-style:italic;
+    font-weight: bold;
+    color:#3D251B;
+}
