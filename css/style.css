@@ -624,6 +624,9 @@ footer{
     left:0px;
 }
 
+.content1_image img{
+    width:100%;
+}
 
 .orders{
     width:55%;
