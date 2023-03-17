@@ -615,3 +615,11 @@ footer{
     background-color: #D0BCA8;
 }
 
+.content1_image{
+    width:45%;
+    height:500px;
+    background-color:#FBFE72;
+    position: absolute;
+    top:20px;
+    left:0px;
+}
