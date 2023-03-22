@@ -2,7 +2,7 @@
 
 // Import the functions you need from the SDKs you need
 import { initializeApp} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
+import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
 
  // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -22,7 +22,18 @@ import { getFirestore, addDoc, collection } from "https://www.gstatic.com/fireba
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
+  let btn_sign_out =  document.getElementById('btn_sign_out');
+  btn_sign_out.addEventListener('click', function(){
+    signOut(auth).then(() => {
+      // Sign-out successful.
+      alert('Log out success')
+      window.location.replace("index.html");
+      }).catch((error) => {
+      // An error happened.
+      });
+  })
 
+  
 let order_btns = document.querySelectorAll('.order_btn');
 for(let i=0; i< order_btns.length; i++){
   order_btns[i].addEventListener('click',addOrder);
