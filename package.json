@@ -1,0 +1,25 @@
+{
+  "name": "coffee_app",
+  "version": "1.0.0",
+  "description": "Creating project using JavaScript and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentina-2608/Coffee_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valentina-2608/Coffee_app/issues"
+  },
+  "homepage": "https://github.com/Valentina-2608/Coffee_app#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1310.0",
+    "firebase": "^9.17.1"
+  },
+  "devDependencies": {}
+}
