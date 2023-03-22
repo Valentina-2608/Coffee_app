@@ -647,6 +647,18 @@ footer{
     left:20%;
 }
 
+#show_orders{
+    padding:10px;
+    position: absolute;
+    top:10px;
+    left:65%;
+    border:none;
+    border-radius: 5px;
+    background-color:#3D251B;
+    color:#D0BCA8;
+    font-weight: bold;
+}
+
 
 /* Orders list */
 .rectangle{
