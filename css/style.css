@@ -660,6 +660,10 @@ footer{
 }
 
 
+#show_orders:hover{
+    cursor: pointer;
+}
+
 /* Orders list */
 .rectangle{
     width:70%;
