@@ -25,11 +25,14 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
 
   const dbRef = collection(db, 'Orders');
   let list_orders = document.querySelector('.list_orders');
+  let show_orders = document.getElementById('show_orders');
+  show_orders.addEventListener('click', showAllOrders);
+
+  function showAllOrders(){
   onSnapshot(dbRef, docsSnap => {
     docsSnap.forEach(doc => {
       console.log(doc.data().caption);
       console.log(doc.data().price);
-
       let new_order = document.createElement('div');
       new_order.classList.add('new_order')
 
@@ -47,12 +50,11 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
 
       list_orders.appendChild(new_order);
 
-
-      
-    
+      setTimeout(()=>{
+        location.reload()
+      },10000)
     })
 
-  });
-
-
+  })
  
+  }
